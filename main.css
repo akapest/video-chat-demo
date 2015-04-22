@@ -1,0 +1,126 @@
+/*
+ *  Copyright (c) 2014 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+ */
+.hidden {
+	display: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	line-height: 2em;
+	border-bottom: 1px solid #ccc;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin: 0 0 0.8em 0;
+	padding: 0 0 0.2em 0;
+}
+
+h2 {
+	line-height: 3.2em;
+	color: #444;
+	font-size: 1em;
+	font-weight: 500;
+	margin: 0 0 0.8em 0;
+}
+
+h3 {
+	border-top: 1px solid #eee;
+	color: #666;
+	font-weight: 500;
+	margin: 20px 0 10px 0;
+	padding: 10px 0 0 0;
+	white-space: nowrap;
+}
+
+#container {
+	margin: 0 auto 0 auto;
+	max-width: 50em;
+	padding: 1em 1.5em 1.3em 1.5em;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.part {
+	float: left;
+	width: 47%;
+}
+
+div.fr {
+	float: right;
+}
+
+.buttons {
+	margin: 20px 0;
+}
+
+button {
+	height: 35px;
+	width: 23%;
+	background-color: #d84a38;
+	border: 1px solid #d84a38;
+	border-radius: 2px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0.7em 0.6em 0.7em;
+}
+
+button:first-child {
+	margin-left: 0;
+}
+
+button:hover {
+	background-color: #C21A06;
+	border: 1px solid #F53333;
+}
+
+button[disabled] {
+	background: grey;
+	border-color:grey;
+}
+
+p {
+	color: #444;
+	font-weight: 300;
+	line-height: 1.1em;
+}
+
+strong {
+	font-weight: 500;
+}
+
+video {
+	max-width: 100%;
+	background: #222;
+	margin: 0 0 20px 0;
+	height: 275px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 680px) {
+	h1,h2 {
+		line-height: 1em;
+	}
+	.buttons {
+		margin: 5px 0;
+	}
+	button {
+		width: 100%;
+	}
+	div.part {
+		width: 100%;
+	}
+}
+
+

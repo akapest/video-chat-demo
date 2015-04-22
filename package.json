@@ -1,0 +1,16 @@
+{
+  "name": "video-chat-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "socket.io": "^1.3.5"
+  }
+}
